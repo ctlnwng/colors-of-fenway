@@ -2,14 +2,20 @@
     font-family: Karla, sans-serif;
     text-align: left;
     color: black;
+    background-color:#F8F8F8;
+}
+
+img {
+    width: 100%;
 }
 
 #title {
     font-size: 32px;
 }
 
-img {
-    width: 100%;
+#desc {
+    color: #9aac9d;
+    font-size: 14px;
 }
 
 .square {

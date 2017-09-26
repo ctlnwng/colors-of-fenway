@@ -17,14 +17,17 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12"><p id="title">The Colors of Fenway</p></div>
+            <div class="col-12">
+                <p id="title">The Colors of Fenway <span id="desc">Hover over each image to see the original photo.</span></p>
+            </div>
          </div>
     </div>
 
     <div class="container">
         <div class="row">
             <div class="col-6">
-                <img src="img/fens.png" alt="The Fens">
+                <img id="fens" src="img/fens.png" onmouseover="this.src='img/fens-photo.jpg'"
+                onmouseout="this.src='img/fens.png'"/>
             </div>
             <div class="col-2">
                 <div class="row square" style="background-color:#515a2c">#515a2c</div>
@@ -51,12 +54,11 @@
                     <div class="row square" style="background-color:#e2a198">#e2a198</div>
                 </div>
                 <div class="col-6">
-                     <img src="img/apartment.png" alt="The Fens">
+                        <img id="fens" src="img/apartment.png" onmouseover="this.src='img/apartment-photo.jpg'"
+                        onmouseout="this.src='img/apartment.png'"/>
                 </div>
             </div>
         </div>
-
-
 </body>
 
 </html>
